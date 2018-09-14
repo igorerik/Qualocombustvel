@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <dimen name="seekbar_height">40dp</dimen>
+    <dimen name="texto_resultado">30dp</dimen>
+    <dimen name="texto_resltado_paddingtop">10dp</dimen>
 </resources>

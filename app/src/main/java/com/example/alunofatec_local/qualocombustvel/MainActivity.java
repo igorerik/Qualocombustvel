@@ -20,8 +20,8 @@ public class MainActivity extends AppCompatActivity {
     private ImageView image_resultado;
 
     private double resultado;
-    private double preco_gasolina =  25;
-    private double preco_alcool =  15;
+    private double preco_gasolina =  0;
+    private double preco_alcool =  0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -43,16 +43,16 @@ public class MainActivity extends AppCompatActivity {
         seekBar_alcool.setOnSeekBarChangeListener(new ObservadorDaSeekBar());
     }
 
-
     private class ObservadorDaSeekBar implements SeekBar.OnSeekBarChangeListener{
 
         @Override
         public void onProgressChanged(SeekBar seekBar, int progress, boolean fromUser) {
-            if (seekBar.getId() == R.id.seekBar_alcool){
+            if (seekBar.getId() == R.id.seekBar_alcool) {
                 texto_preco_alcool.setText(currencyFormat.format(progress));
-                preco_alcool = progress/100.0;
+                preco_alcool = progress / 100.0;
                 texto_preco_alcool.setText(currencyFormat.format(preco_alcool));
-            } else {
+            }
+            if (seekBar.getId() == R.id.seekBar_gasolina) {
                 texto_preco_gasolina.setText(currencyFormat.format(progress));
                 preco_gasolina = progress/100.0;
                 texto_preco_gasolina.setText(currencyFormat.format(preco_gasolina));

@@ -42,8 +42,9 @@
         android:layout_width="wrap_content"
         android:layout_height="@dimen/seekbar_height"
         android:layout_gravity="fill_horizontal"
+        android:min="0"
         android:max="5000"
-        android:progress="25" />
+        android:progress="1" />
 
     <TextView
         android:id="@+id/texto_alcool"
@@ -66,8 +67,9 @@
         android:layout_width="wrap_content"
         android:layout_height="@dimen/seekbar_height"
         android:layout_gravity="fill_horizontal"
-        android:max="3000"
-        android:progress="15" />
+        android:min="0"
+        android:max="5000"
+        android:progress="1" />
 
     <TextView
         android:id="@+id/texto_abasteca_com"
@@ -87,19 +89,10 @@
         android:layout_columnSpan="2"
         android:layout_gravity="fill_horizontal"
         android:gravity="center"
+        android:paddingTop="@dimen/texto_resltado_paddingtop"
         android:text="@string/texto_resultado"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textSize="@dimen/texto_resultado" />
 
 
 </GridLayout>
-
-<!--
- xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity"
-    android:columnCount="2"
-    android:rowCount="4"
-    android:useDefaultMargins="true">
- -->

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">¿Cuál es el combustible?</string>
+    <string name="app_name">¿Qué Abastecer?</string>
     <string name="texto_gasolina">Precio del litro de la gasolina</string>
     <string name="texto_alcool">Precio del litro del etanol</string>
     <string name="texto_preco_gasolina">25</string>

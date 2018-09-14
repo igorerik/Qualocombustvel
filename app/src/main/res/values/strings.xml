@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">What is the fuel?</string>
+    <string name="app_name">What to Refuel?</string>
     <string name="texto_gasolina">Price of the liter of gasoline</string>
     <string name="texto_alcool">Price of the liter of ethanol</string>
     <string name="texto_preco_gasolina">25</string>

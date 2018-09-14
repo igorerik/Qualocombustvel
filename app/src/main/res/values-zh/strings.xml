@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">什么是燃料？</string>
+    <string name="app_name">什么加油？</string>
     <string name="texto_preco_gasolina">25</string>
     <string name="texto_preco_alcool">15</string>
     <string name="texto_gasolina">汽油升价</string>
