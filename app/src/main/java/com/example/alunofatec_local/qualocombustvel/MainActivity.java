@@ -57,7 +57,10 @@ public class MainActivity extends AppCompatActivity {
                 preco_gasolina = progress/100.0;
                 texto_preco_gasolina.setText(currencyFormat.format(preco_gasolina));
             }
-            if ((preco_alcool / preco_gasolina) >= 0.7) {
+            if (preco_alcool == 0.0 && preco_gasolina == 0.0) {
+                texto_resultado.setText(getString(R.string.texto_resultado));
+                image_resultado.setImageResource(R.drawable.nenhum);
+            } else if ((preco_alcool / preco_gasolina) >= 0.7) {
                 texto_resultado.setText(getString(R.string.combustivel_gasolina));
                 image_resultado.setImageResource(R.drawable.gasolina);
             }  else {
