@@ -1,11 +1,11 @@
 <resources>
     <string name="app_name">What is the fuel?</string>
-    <string name="texto_gasolina">Liter of Petrol Price</string>
-    <string name="texto_alcool">Liters of Ethanol Price</string>
+    <string name="texto_gasolina">Price of the liter of gasoline</string>
+    <string name="texto_alcool">Price of the liter of ethanol</string>
     <string name="texto_preco_gasolina">25</string>
     <string name="texto_preco_alcool">15</string>
     <string name="texto_abasteca_com">Fuel with:</string>
-    <string name="texto_resultado">XXXXXXXXXX</string>
     <string name="combustivel_gasolina">Petrol</string>
     <string name="combustivel_alcool">Ethanol</string>
+    <string name="texto_resultado">---------</string>
 </resources>

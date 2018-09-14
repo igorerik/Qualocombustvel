@@ -13,8 +13,6 @@ public class MainActivity extends AppCompatActivity {
 
     private static NumberFormat currencyFormat =
             NumberFormat.getCurrencyInstance();
-    /*private static NumberFormat percentFormat =
-            NumberFormat.getPercentInstance();*/
 
     private TextView texto_preco_gasolina;
     private TextView texto_preco_alcool;
@@ -30,17 +28,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
-
-
-
-
-
         image_resultado = (ImageView) findViewById(R.id.image_resultado);
         texto_preco_gasolina = (TextView) findViewById(R.id.texto_preco_gasolina);
         texto_preco_alcool = (TextView) findViewById(R.id.texto_preco_alcool);
         texto_resultado = (TextView) findViewById(R.id.texto_resultado);
-
 
         texto_preco_gasolina.setText(currencyFormat.format(0));
         texto_preco_alcool.setText(currencyFormat.format(0));
@@ -50,7 +41,6 @@ public class MainActivity extends AppCompatActivity {
 
         seekBar_gasolina.setOnSeekBarChangeListener(new ObservadorDaSeekBar());
         seekBar_alcool.setOnSeekBarChangeListener(new ObservadorDaSeekBar());
-
     }
 
 

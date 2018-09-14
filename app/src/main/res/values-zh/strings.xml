@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">什么是燃料？</string>
+    <string name="texto_preco_gasolina">25</string>
+    <string name="texto_preco_alcool">15</string>
+    <string name="texto_gasolina">汽油升价</string>
+    <string name="texto_alcool">一升乙醇的价格</string>
+    <string name="texto_abasteca_com">填写:</string>
+    <string name="combustivel_gasolina">汽油</string>
+    <string name="combustivel_alcool">乙醇</string>
+    <string name="texto_resultado">---------</string>
 </resources>
